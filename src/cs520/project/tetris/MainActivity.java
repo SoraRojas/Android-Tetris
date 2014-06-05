@@ -127,7 +127,7 @@ class TouchSurfaceView extends GLSurfaceView{
 			// the screen. The most efficient way of doing this is to use
 			// glClear().
 			gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
-            // Now we're ready to draw some 3D objects
+			// Now we're ready to draw some 3D objects
 			gl.glMatrixMode(GL10.GL_MODELVIEW);
 			gl.glLoadIdentity();
 			gl.glTranslatef(0, 0, -3.0f);
@@ -167,8 +167,7 @@ class TouchSurfaceView extends GLSurfaceView{
 		private Cell mCell2;
 		private Cell mCell3;
 		private Cell mCell4;
-    }
-    
+	}
 	public final float SIZE = .075f;
 	private final float TOUCH_SCALE_FACTOR = 180.0f / 320;
 	private final float TRACKBALL_SCALE_FACTOR = 36.0f;
