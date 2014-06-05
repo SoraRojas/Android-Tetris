@@ -11,11 +11,11 @@ class Cell
 {
 	public Cell(float x, float y){
 		float CELL_SIZE = .075f;
-        	int one = 0x10000;
+		int one = 0x10000;
         
 		float vertices[] = {
-                	x-CELL_SIZE, y-CELL_SIZE, -CELL_SIZE,
-	                x+CELL_SIZE, y-CELL_SIZE, -CELL_SIZE,
+			x-CELL_SIZE, y-CELL_SIZE, -CELL_SIZE,
+			x+CELL_SIZE, y-CELL_SIZE, -CELL_SIZE,
 			x+CELL_SIZE, y+CELL_SIZE, -CELL_SIZE,
 			x-CELL_SIZE, y+CELL_SIZE, -CELL_SIZE,
 			x-CELL_SIZE, y-CELL_SIZE,  CELL_SIZE,
